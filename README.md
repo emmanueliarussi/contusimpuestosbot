@@ -8,3 +8,5 @@ Un proyecto de:
 * Ian Luca Celestino Breitman
 * Florencia Soledad Wegher Osci
 * Emmanuel Iarussi
+* Germán Rosati
+* Ezequiel Ignacio Vera
