@@ -1,2 +1,2 @@
 # contusimpuestosBOT
-Bot de Telegram para twittear contenido automáticamente enviando mensajes al bot. 
+Un bot colaborativo para visibilizar las iniciativas en ciencia, tecnología y educación financiadas con fondos públicos. 
