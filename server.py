@@ -40,8 +40,8 @@ def getLink(bot):
             if update.message.text:
                 if url_pattern.match(update.message.text):
                     try:
-                        html = urllib.request.urlopen(update.message.text)
                         logger.info(update.message.text)
+			#html = urllib.request.urlopen(update.message.text)
                         # Respuesta automatica para el usuario que envio el link
                         update.message.reply_text("Con tus impuestos twiteamos el link. Gracias!")
                         # Retorno el link
