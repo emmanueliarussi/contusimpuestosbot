@@ -10,3 +10,4 @@ Un proyecto de:
 * Emmanuel Iarussi
 * Germán Rosati
 * Ezequiel Ignacio Vera
+* Juan Manuel Vallejos
