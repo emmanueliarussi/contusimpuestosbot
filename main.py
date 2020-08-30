@@ -93,7 +93,7 @@ def index():
             link = None
         
         # Espero un poco antes de volver a chequear
-	logger.info("keep waiting..")
+        logger.info("keep waiting..")
         time.sleep(sleep_time_sec)
 
     return 0
