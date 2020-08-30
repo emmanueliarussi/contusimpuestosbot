@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 # Tiempo de espera entre updates
-sleep_time_sec = 5 
+sleep_time_sec = 15 
 
 update_id = None
 link      = None
@@ -93,6 +93,7 @@ def index():
             link = None
         
         # Espero un poco antes de volver a chequear
+	logger.info("keep waiting..")
         time.sleep(sleep_time_sec)
 
     return 0
