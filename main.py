@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 # Tiempo de espera entre updates
-sleep_time_sec = 15 
+sleep_time_sec = 5 
 
 update_id = None
 link      = None
