@@ -64,8 +64,11 @@ def tweet_link(api,tweet_ref):
     logger.info(f"Procesando el tweet..") 
     logger.info(tweet_ref)
     # Tweet "Con tus impuestos [LINK]"
-    api.update_status("Con tus impuestos {}".format(tweet_ref))
-    logger.info(f"Twiteado!")
+    try:
+        api.update_status("Con tus impuestos {}".format(tweet_ref))
+        logger.info(f"Twiteado!")
+    except:
+        logger.info(f"No se pudo twittear, probablemente es un tweet duplicado.")
 
 # Main del bot
 def index():
