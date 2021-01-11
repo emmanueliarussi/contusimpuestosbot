@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #!/usr/bin/env python
 
 from os import environ
@@ -61,18 +62,18 @@ def getLink(bot):
 # Twitear un link
 def tweet_link(api,tweet_ref):
     # Log 
-    logger.info(f"Procesando el tweet..") 
+    logger.info("Procesando el tweet..")
     logger.info(tweet_ref)
     # Tweet "Con tus impuestos [LINK]"
     try:
         api.update_status("Con tus impuestos {}".format(tweet_ref))
-        logger.info(f"Twiteado!")
+        logger.info("Twiteado!")
     except:
-        logger.info(f"No se pudo twittear, probablemente es un tweet duplicado.")
+        logger.info("No se pudo twittear, probablemente es un tweet duplicado.")
 
 # Main del bot
 def index():
-    logger.info(f"Bienvenido a @contusimpuestos BOT") 
+    logger.info("Bienvenido a @contusimpuestos BOT") 
     global update_id
     global link
     

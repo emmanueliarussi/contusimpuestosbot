@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # tweepy-bots/bots/config.py
 import tweepy
 import logging
